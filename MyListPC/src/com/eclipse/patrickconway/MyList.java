@@ -25,8 +25,7 @@ public class MyList <T extends Number>
 			{
 				largest = temp;
 			}
-		}
-				
+		}		
 		return largest;
 	}
 	
@@ -43,8 +42,12 @@ public class MyList <T extends Number>
 				smallest = temp;
 			}
 		}
-				
 		return smallest;
+	}
+	
+	public String displayList()
+	{
+		return list.toString();
 	}
 
 }
